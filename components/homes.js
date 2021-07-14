@@ -15,7 +15,10 @@ export default function Homes({ homes }) {
                 Price TBC
               </h3>
             }
-            <p>Location: {home.location}</p>
+            {
+              home.location ?
+              <p>{home.location}</p> : <p>Location: TBC</p>
+            }
             <a>View Here</a>
           </div>
         </div>
