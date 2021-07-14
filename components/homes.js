@@ -1,7 +1,11 @@
-export default function Homes() {
+export default function Homes({ homes }) {
   return (
-    <h2>
-      Homes
-    </h2>
+    <>
+      {homes.map((home) => (
+        <div>
+          <h5>{home.name}</h5>
+        </div>
+      ))}
+    </>
   )
 }
