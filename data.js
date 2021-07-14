@@ -1,4 +1,4 @@
-const homes = [
+export const homes = [
   {
     name: 'Home 1',
     price: 250000,
