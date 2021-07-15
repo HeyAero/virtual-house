@@ -1,4 +1,4 @@
-import { homes } from '../../../data'
+import { homes } from '../../data'
 
 export default function handler(req, res) {
   res.status(200).json(homes)
